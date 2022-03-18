@@ -56,7 +56,20 @@
 }
 
 .list {
-  margin-bottom: 5px;
+  margin-bottom: 7px;
   display: flex;
   justify-content: space-between;
+}
+
+.btn {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
+
+.add-btn {
+  color: green;
+  cursor: pointer;
+  font-size: 18px;
 }
