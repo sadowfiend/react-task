@@ -1,3 +1,7 @@
+*{
+  font-family: sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.form-container {
+  margin-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.form {
+  margin-bottom: 10px;
+}
+
+.list {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
 }
